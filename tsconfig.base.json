@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@boundaries-by-type/feature-booking": [
+        "packages/feature-booking/src/index.ts"
+      ],
+      "@boundaries-by-type/shared-spec-utils": [
+        "packages/shared-spec-utils/src/index.ts"
+      ],
+      "@boundaries-by-type/shared-utils": ["packages/shared-utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
