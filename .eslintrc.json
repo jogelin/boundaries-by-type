@@ -5,7 +5,7 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
-      "excludedFiles": ["**/*.spec.ts"],
+      "excludedFiles": ["*.spec.ts"],
       "rules": {
         "@nx/enforce-module-boundaries": [
           "error",
